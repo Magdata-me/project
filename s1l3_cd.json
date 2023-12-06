@@ -1,0 +1,18 @@
+{
+
+"CD":{
+"Titolo":"MrSimpatia",    
+"Artista":"FabriFibra",
+"Casa Discografica":"Epic Records",
+"anno di pubblicazione":"2004",
+"Produttore":["Nesli","Bassi Maestro","Bosca"],
+"Genere":"Hip Hop",
+"Tracce":[{"Traccia n":"1","Titolo":"Uomo nel Mirino", "Durata":"180 sec"},
+          {"Traccia n":"2","Titolo":"Io non ti invidio", "Durata":"170 sec"},
+          {"Traccia n":"3","Titolo":"Faccio Sul serio", "Durata":"210 sec"}
+               ]
+       
+        }
+
+
+}

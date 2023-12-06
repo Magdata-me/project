@@ -1,0 +1,26 @@
+
+{
+        "Biblioteca Cabral":
+[
+
+  {"The fellowship of the Ring":{
+                               "capitoli":"18",
+                                "autore": {"nome":"J.R.R.Tolkien",
+                                           "nazione": "UK"}
+
+   }},
+   {"Return of the King":{
+                      "capitoli":"15",
+                       "autore": {"nome":"J.R.R.Tolkien",
+                                           "nazione": "UK"}
+
+   }},
+
+    {"The fellowship of the Ring":{
+                                   "capitoli":"18",
+                                   "autore": {"nome":"J.R.R.Tolkien",
+                                             "nazione": "UK"}
+
+   }
+} 
+

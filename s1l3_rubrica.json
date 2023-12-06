@@ -1,0 +1,90 @@
+{
+
+"Title": "Sig.ra",	
+"name":"Margot",
+"middle name": null,
+"last name":"Stefanetti",
+"phone number": "3331162323",
+"email": "margot@google.com",
+"data di nascita": "02/5/2023",
+"cittadinanza": ["italiana", "peruviana"],
+"laurea": "economia",
+"residenza":"Bologna",
+"auto":"true",
+"documento":["id card","passaporto"]
+
+
+},
+
+{
+"title":"sig.ra",	
+"name":"federica",
+"middle name": null,
+"last name": "Branca",
+"phone number": "362511458",
+"email": "federica@gmail.com",
+"data di nascita": "12/11/90",
+"cittadinanza":"italiana",
+"laurea": "economia",
+"residenza":"Roma",
+"auto":"true",
+"documento":"id card"
+
+},
+
+
+{
+
+"Title": "Sig.ra",	
+"name":"Martina",
+"middle name": null,
+"last name":"Albano",
+"phone number": "3331162355",
+"email": "martina@google.com",
+"data di nascita": "02/5/2021",
+"cittadinanza": "italiana",
+"laurea": "psicologia",
+"residenza":"Padova",
+"auto":"true",
+"documento":["id card","passaporto"]
+
+
+},
+
+{
+
+"Title": "Sig.ra",	
+"name":"Sandra",
+"middle name": null,
+"last name":"Sandil",
+"phone number": "33458893",
+"email": "sandra@google.com",
+"data di nascita": "02/8/2023",
+"cittadinanza": "italiana",
+"laurea": "matematica",
+"residenza":"Reggio Emilia",
+"auto":"true",
+"documento":["id card","passaporto"]
+
+
+},
+
+
+{
+
+"Title": "Sig",	
+"name":"Ramiro",
+"middle name": "Carlo",
+"last name":"Sanchez",
+"phone number": "338954223",
+"email": "sanchez@google.com",
+"data di nascita": "09/5/1999",
+"cittadinanza": ["italiana","messicana"],
+"laurea": null,
+"residenza":"Guadalajara",
+"auto":"true",
+"documento":["id card","passaporto"]
+
+
+}
+
