@@ -1,0 +1,87 @@
+CREATE TABLE aereoporto
+    (ID INTEGER PRIMARY KEY,
+    città TEXT (30) NOT NULL, 
+    nazione TEXT (60) NOT NULL, 
+    Numpiste INTEGER);
+
+
+
+
+INSERT INTO aereoporto values (1,"roma","italia",5);
+INSERT INTO aereoporto values (2,"venezia","italia",3);
+INSERT INTO aereoporto values (3,"bologna","italia",2);
+INSERT INTO aereoporto values (4,"torino","italia",4);
+INSERT INTO aereoporto values (5,"milano","italia",5);
+INSERT INTO aereoporto values (6,"madrid","spagna",5);
+INSERT INTO aereoporto values (7,"barcellona","spagna",4);
+INSERT INTO aereoporto values (8,"valencia","spagna",3);
+INSERT INTO aereoporto values (9,"londra","uk", NULL);
+INSERT INTO aereoporto values (10,"manchester","uk",4);
+
+
+
+
+#SELECT * FROM aereoporto;
+
+
+CREATE TABLE volo
+    (Idvolo CHAR(5) PRIMARY KEY,
+    giornoSett TEXT (15) NOT NULL, 
+    cittaPART TEXT (30) NOT NULL, 
+    OraPart TEXT,
+    cittaArr TEXT,
+    OraArr TEXT,
+    TipoAereo TEXT);
+
+
+
+
+INSERT INTO volo values ("IT259","lun","venezia","6.00","roma","7.30","boeing735");
+INSERT INTO volo values ("SP352","lun","madrid","6.00","roma","8.30","boeing735");
+INSERT INTO volo values ("AZ274","mar","venezia","13.00","bologna","15.30","boeing747");
+INSERT INTO volo values ("SP274","ven","barcellona","20.00","roma","22.30","boeing735");
+INSERT INTO volo values ("UK533","gio","londra","10.00","madrid","11.30","boeing747");
+INSERT INTO volo values ("UK500","dom","manchester","15.00","roma","17.30","boeing700");
+INSERT INTO volo values ("SP212","gio","barcellona","20.00","bologna","22.30","boeing735");
+INSERT INTO volo values ("IT221","lun","torino","14.00","roma","15.00","boeing700");
+INSERT INTO volo values ("IT002","ven","roma","18.00","londra","20.30","boeing747");
+INSERT INTO volo values ("UK249","lun","londra","5.00","roma","7.30","boeing747");
+
+
+#SELECT * FROM volo;
+
+
+CREATE TABLE aereo
+    (ID INTEGER PRIMARY KEY,
+    TipoAereo TEXT (15),
+    NumPasseggeri INTEGER, 
+    QtaMerci INTEGER);
+
+INSERT INTO aereo values (1,"boeing735",288,150);
+INSERT INTO aereo values (2,"boeing747",420,200);
+INSERT INTO aereo values (3,"boeing700",190,159);
+INSERT INTO aereo values (4,"boeing735",258,170);
+INSERT INTO aereo values (5,"boeing735",211,320);
+INSERT INTO aereo values (6,"boeing747",562,320);
+INSERT INTO aereo values (7,"boeing735",199,371);
+INSERT INTO aereo values (8,"boeing747",457,601);
+INSERT INTO aereo values (9,"boeing700",174,350);
+INSERT INTO aereo values (10,"boeing735",310,150);
+
+#SELECT * FROM aereo;
+
+#SELECT * FROM aereoporto WHERE Numpiste IS NULL;
+
+#SELECT * FROM volo WHERE cittaPART = "torino";
+
+#SELECT * FROM volo WHERE CittaArr = "bologna";
+
+#SELECT * FROM volo WHERE Idvolo = "AZ274";
+
+#SELECT * FROM volo WHERE cittaArr="roma" AND OraPart='15.00';
+
+#SELECT * FROM volo WHERE cittaArr="roma" AND (OraPart='15.00' OR OraArr="8.30");
+
+#VOLI CHE AIVANO A MILANO ORDINATI IN ORDINE ALFABETICO;
+
+#SELECT * FROM volo WHERE CittaArr="roma" ORDER BY "cittaPART" ASC; non viene. o meglio non ordina i valori ma non da errori
